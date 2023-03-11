@@ -56,21 +56,6 @@ body {
 .container input:focus {
   border-color: #587ef4;
 }
-.total-amount-container,
-.user-amount-container {
-  background-color: #ffffff;
-  padding: 1.25em 0.9em;
-  border-radius: 0.3em;
-  margin-bottom: 20px;
-  box-shadow: 0 0.6em 1.2em rgba(28, 0, 80, 0.06);
-}
-
-#kategoriat {
-  background-color: #ffffff;
-  padding: 0.25em 0.9em;
-  border-radius: 0.3em;
-  box-shadow: 0 0.6em 1.2em rgba(28, 0, 80, 0.06);
-}
 
 .output-container {
   background-color: #587ef4;
@@ -217,8 +202,8 @@ li {
 }
 
 a {
-  text-decoration: none;
-  color: black;
+  text-decoration: underline;
+  color: #e30613;
 }
 
 .footer {
